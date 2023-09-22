@@ -7,6 +7,7 @@ test_principal.py
 # Importa a biblioteca pytest, que é utilizada para
 # escrever testes simples e escaláveis
 import pytest
+from validar_cpf import ValidaCPF
 
 # import patch: a função patch do módulo mock da biblioteca
 # de testes unittest é usada para substituir objetos dentro
