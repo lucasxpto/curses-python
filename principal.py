@@ -22,9 +22,6 @@ class App:
         stdscr.refresh()
         stdscr.getch()  # Aguarda o usuário pressionar qualquer tecla
 
-    def solicitar_cpf(self, stdscr):
-        pass
-
     def formatar_cpf(self, cpf_lista):
         cpf_str = ''.join(cpf_lista)
         return cpf_str[:3] + '.' + cpf_str[4:7] + '.' + cpf_str[8:11] + '-' + cpf_str[12:]
@@ -58,6 +55,8 @@ class App:
                         if ValidaCPF.valida_cpf(cpf_unmasked):
                             stdscr.addstr(4, 0, "O CPF informado é válido!")
                             stdscr.refresh()
+                            # time.sleep(2)  # Mantém a mensagem na tela por 2 segundos, ou o tempo que preferir
+                            # stdscr.clear()
                             stdscr.addstr(6, 0, "Informe o nome da pessoa associada ao CPF: ")
                             rectangle(stdscr, 7, 0, 9, 30)
                             nome = ''
