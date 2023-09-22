@@ -1,7 +1,6 @@
 """
-Claudinei de Oliveira - UTF8 pt-br - 18-08-2023
+Claudinei de Oliveira - UTF8 - pt-br - 15-09-2023
 Aluno: Lucas Pedreira Vital
-test_principal.py
 """
 
 # Importa a biblioteca pytest, que é utilizada para

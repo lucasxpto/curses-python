@@ -1,3 +1,8 @@
+"""
+Claudinei de Oliveira - UTF8 - pt-br - 15-09-2023
+Aluno: Lucas Pedreira Vital
+"""
+
 from utils import Utils
 import curses
 class Tela:

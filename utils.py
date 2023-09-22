@@ -1,3 +1,8 @@
+"""
+Claudinei de Oliveira - UTF8 - pt-br - 15-09-2023
+Aluno: Lucas Pedreira Vital
+"""
+
 class Utils:
     def __init__(self):
         pass

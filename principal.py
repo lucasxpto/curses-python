@@ -1,3 +1,8 @@
+"""
+Claudinei de Oliveira - UTF8 - pt-br - 15-09-2023
+Aluno: Lucas Pedreira Vital
+"""
+
 import curses
 from curses.textpad import rectangle, Textbox
 from validar_cpf import ValidaCPF
