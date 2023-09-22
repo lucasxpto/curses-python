@@ -64,7 +64,7 @@ class App:
                                 tecla = stdscr.getch(8, len(nome) + 1)
                                 
                                 # Limpar a mensagem de validação anterior
-                                stdscr.addstr(10, 0, ' ' * 50)
+                                stdscr.addstr(10, 0, ' ' * 80)
                                 
                                 if tecla == ord('\n'):  # Se for 'Enter'
                                     if not nome.strip():  # Se o nome estiver vazio
@@ -101,12 +101,12 @@ class App:
                                     stdscr.addstr(10, 0, mensagem)  # Exibe apenas mensagens de erro
                                     
                             stdscr.addstr(12, 0, "Informe o e-mail da pessoa associada ao CPF e ao nome: ")
-                            rectangle(stdscr, 13, 0, 15, 50)
+                            rectangle(stdscr, 13, 0, 15, 80)
                             email = ''
                             while True:
                                 tecla = stdscr.getch(14, len(email) + 1)
                                 # Limpar a mensagem de validação anterior
-                                stdscr.addstr(16, 0, ' ' * 50)
+                                stdscr.addstr(16, 0, ' ' * 80)
                                 if tecla == ord('\n'):  # Se for 'Enter'
                                     email_validado, mensagem = ValidaEmail.valida_email(email)
                                     if email_validado is not None:
